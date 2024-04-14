@@ -1,0 +1,40 @@
+nav {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    padding: 5px;
+}
+div {
+    padding: 5px;
+    font-size: large;
+}
+select {
+    border-radius: 10px;
+    font-weight: bold;
+    height: 25px;
+}
+select:hover {
+    cursor: pointer;
+}
+button {
+    border-radius: 5px;
+    font-weight: lighter;
+    padding: 4px;
+    background-color: darkgray;
+    color: blueviolet;
+}
+.a-decoration:hover {
+    color: white;
+}
+.a-decoration {
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+}
+button:hover {
+    color: white;
+    font-weight: bold;
+    background-color: green;
+}
+input[type="text"] {
+    border-radius: 5px;
+}
