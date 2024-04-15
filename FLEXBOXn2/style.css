@@ -1,0 +1,56 @@
+.lettere {
+    display: flex;
+    justify-content: center;
+    min-height: 10vh;
+    background-color: white;
+    
+}
+.numero {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    min-height: 10vh
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+.yellow {
+    min-width: 150px;
+    display: flex;
+    justify-content: center;
+}
+.yellow-div {
+    background-color: lightyellow;
+}
+.red {
+    min-width: 150px;
+    display: flex;
+    justify-content: center;
+
+    
+}
+.red-div {
+    background-color: lightcoral;
+    
+}
+.green-div {
+    background-color: lawngreen;
+    min-width: 130px;
+    display: flex;
+    justify-content: center;
+}
+.orange-div {
+    background-color: orange;
+    min-width: 500px;
+}
+.orange {
+    display: flex; 
+}
+.blue-div {
+    background-color: lightblue;
+    min-width: 80px;
+    display: flex;
+    justify-content: center;
+}
