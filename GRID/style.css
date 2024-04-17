@@ -1,0 +1,35 @@
+.calcolatrice {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    padding: 10px;
+    background-color: antiquewhite;
+}     
+.calcolatrice > div {
+    align-self: start;
+    text-align: center;
+}
+.uguale{
+    grid-row: span 4;
+    align-self: center;
+    height: 20vh;
+    background-color: lightcoral;
+    font-weight: bold;
+}
+.operatori {
+    background-color: burlywood;
+    font-weight: bold;
+}
+.display {
+    display: grid;
+    text-align: end;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    padding: 10px;
+    background-color: grey;
+    color: white;
+}
