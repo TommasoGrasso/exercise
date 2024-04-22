@@ -1,0 +1,23 @@
+li {
+    list-style-type: circle;
+}
+body {
+    display: inline-flex;
+    margin: 20px;
+    border: 3px solid lightslategray;
+    border-radius: 5px;
+}
+div {
+    background-color:antiquewhite;
+}
+button {
+    background-color: black;
+    border-radius: 10px;
+    color: antiquewhite;
+}
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
